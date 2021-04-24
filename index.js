@@ -135,7 +135,7 @@ const writeToFile = (data) => {
                 reject(err);
                 return;
             }
-            resolive ({
+            resolve ({
                 ok: true,
                 message: "README file created!",
             });
