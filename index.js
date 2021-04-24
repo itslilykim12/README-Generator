@@ -122,12 +122,32 @@ const questions = [
             }
     },
 ];
+const promptUser = (questions) => {
+    return inquirer.prompt(questions);
+};
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
+// function to write README file
+const writeToFile = (data) => {
+    return new Promise ((resolve, reject) => {
+        fs.writeFile ("./dist/README.md", data, (err) => {
+            //if there is an error, reject the promise and send error to promise's `.catch()` method
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolive ({
+                ok: true,
+                message: "README file created!",
+            });
+        });
+    });
+};
+// function to initialize app
+const init = () => {
+    promptUser(questions)
+    .then((results) => generateMarkdown(results))
+    .then((fileMD) => writeToFile(fileMD));
+};
 
 // Function call to initialize app
 init();
