@@ -1,9 +1,9 @@
- # README generator 
+ # README,md
 
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License Badge"/>
 
 ## Description
-to generate a readme file 
+to generate a readme file
   
   # Table of Contents
   1. [Installation](#Installation)
@@ -36,5 +36,5 @@ Unit testing ensures the code is executed properly for the application to genera
 ## Contact-Me
 I can be reached via: 
 - Github: [itslilykim12](http://github.com/itslilykim12)
-- Email: undefined(undefined@gmail.com)
+- Email: undefined
 

@@ -64,7 +64,7 @@ ${test}
 ## Contact-Me
 I can be reached via: 
 - Github: [${github}](http://github.com/${github})
-- Email: ${email}(${email}@gmail.com)
+- Email: ${email}
 
 `;
 }
