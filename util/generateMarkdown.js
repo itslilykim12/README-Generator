@@ -1,14 +1,8 @@
 //function that returns a license badge for the selected license
 const renderLicenseBadge = (license) => {
-  const url = `img.shields.io/badge/License-${license}-yellow.svg`;
+  const url = `img.shields.io/badge/License-${license}-yellow`;
 
-  return `<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License Badge"/>`;
-};
-//function that returns the link to a description of selected license
-const renderLicenseInfo = (license) => {
-  let url = `https://choosealicense.com/licenses/`;
-
-  return url;
+  return `<img src="https://img.shields.io/badge/License-MIT-yellow" alt="License Badge"/>`;
 };
 
 //function to generate markdown for README
@@ -51,11 +45,12 @@ ${installation}
 ${usage}
 
 ## License
-This application is covered under the following licenses: ${license}.
+This application is covered under the following licenses: https://choosealicense.com/licenses/.
 
 ## Contribution
 Please follow these guidelines when contributing to the project. 
-${contribution}
+Please follow the Contributer Covenant Guidelines https://www.contributor-covenant.org/.
+
 
 ## Tests
 The following test can be used to test the application. 

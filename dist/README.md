@@ -1,9 +1,9 @@
- # README,md
+ # README generator
 
-<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License Badge"/>
+<img src="https://img.shields.io/badge/License-MIT-yellow" alt="License Badge"/>
 
 ## Description
-to generate a readme file
+to generate a readme file 
   
   # Table of Contents
   1. [Installation](#Installation)
@@ -23,11 +23,12 @@ undefined
 undefined
 
 ## License
-This application is covered under the following licenses: undefined.
+This application is covered under the following licenses: https://choosealicense.com/licenses/.
 
 ## Contribution
 Please follow these guidelines when contributing to the project. 
-undefined
+Please follow the Contributer Covenant Guidelines https://www.contributor-covenant.org/.
+
 
 ## Tests
 The following test can be used to test the application. 
