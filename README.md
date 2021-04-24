@@ -27,9 +27,9 @@ To use this application, as an user you need to execute the node index.js or wha
 In your command line you need to answer all your prompted questions and then at the end your readme file will be generated. 
 
 ## References 
-https://choosealicense.com/licenses/
-https://www.contributor-covenant.org/
-https://www.npmjs.com/package/inquirer
+- Licenses: https://choosealicense.com/licenses/
+- Contribution: https://www.contributor-covenant.org/
+- inquirer for node index.js: https://www.npmjs.com/package/inquirer
 
 ## Contributions 
 Made By Lily Kim 
