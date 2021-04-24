@@ -28,6 +28,8 @@ In your command line you need to answer all your prompted questions and then at 
 
 ## References 
 https://choosealicense.com/licenses/
+https://www.contributor-covenant.org/
+https://www.npmjs.com/package/inquirer
 
 ## Contributions 
 Made By Lily Kim 
